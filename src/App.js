@@ -40,8 +40,7 @@ class App extends React.Component {
                         <span>Generate New Quote</span>
                     </button>
                 </div>
-
-            </div>
+            </div >
 
         );
     }

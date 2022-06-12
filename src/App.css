@@ -28,7 +28,7 @@ body {
     flex-direction: column;
     border-radius: 20px;
     padding: 3%;
-    box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+    box-shadow: -5px -5px 30px 5px red, 5px 5px 25px 5px blue;
 }
 
 .advice {
@@ -50,6 +50,7 @@ button {
     background-color: #ffffff;
     border: 2px solid rgba(26, 61, 122, 0.6);
     margin-top: 2rem;
+    margin-bottom: -2rem;
 }
 
 button:hover {
@@ -116,6 +117,7 @@ button:hover span {
 }
 
 /* =============================== */
+
 
 @media only screen and (max-width: 775px) {
     .card {
